@@ -3,14 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "likhitha":"nodemon server.js"
+    "dev": "nodemon source/server2.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "expres": "^0.0.5",
+    "express": "^4.19.2",
+    "install": "^0.13.0",
+    "mongodb": "^6.8.0",
     "nodemon": "^3.1.4"
   }
 }
