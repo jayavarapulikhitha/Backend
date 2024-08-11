@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon source/server2.js"
+    "dev": "nodemon source/server1.js"
   },
   "author": "",
   "license": "ISC",
